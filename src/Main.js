@@ -6,6 +6,7 @@ export default function Main() {
     { name: "Product 2", price: 74 },
     { name: "Product 3", price: 50 },
   ];
+
   return (
     <div className="row">
       {products.map((value, index) => (
@@ -17,4 +18,5 @@ export default function Main() {
       ))}
     </div>
   );
+  
 }
