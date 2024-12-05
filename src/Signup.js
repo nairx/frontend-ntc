@@ -15,7 +15,7 @@ export default function Signup() {
         <input type="text" placeholder="Enter Email"></input>
       </p>
       <p>
-        Date of Birth:<input type="datetime-local"></input>
+      <input type="password" placeholder="Enter Password"></input>
       </p>
       <button>Signup</button>
       <hr></hr>
