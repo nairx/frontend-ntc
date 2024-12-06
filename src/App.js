@@ -10,7 +10,6 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 export default function App() {
   return (
     <div>
-
       <BrowserRouter>
         <Header name="John" age={25} />
         <Routes>
