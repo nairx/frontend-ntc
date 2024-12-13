@@ -11,9 +11,9 @@ export default function Footer() {
   return (
     <div>
       <hr></hr>
-      <input type="text" onChange={(e)=>setName(e.target.value)}></input>
-      <button onClick={greet}>Click</button>
-      <Temp name="John" />
+      {/* <input type="text" onChange={(e)=>setName(e.target.value)}></input> */}
+      {/* <button onClick={greet}>Click</button> */}
+      {/* <Temp name="John" /> */}
       <h3>@Copyright 2024. All rights reserved.</h3>
     </div>
   );
